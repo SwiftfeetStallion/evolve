@@ -66,7 +66,7 @@ def test(program_path):
         
         return total, cost
     
-    paths = ['D:/evolve/data/A/A-n32-k5.vrp']
+    paths = [f'{os.getcwd()}/data/A/A-n32-k5.vrp']
     
     res = {}
     scores = []
